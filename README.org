@@ -1,0 +1,12 @@
+#+TITLE: My Nix Profile
+
+My [[https://github.com/lambdadog/nix-profile-declarative][nix-profile-declarative]] configuration. Doesn't use
+~nix-profile-declarative~ as a channel due to my consistent dogfooding
+of my changes to the project, but shows what a reasonable config may
+look like.
+
+I imagine you'll rarely see modules for nixpkgs packages added to this
+repository, since it'll often make more sense to clean them up and add
+them to ~nix-profile-declarative~ itself, but at the same time it's
+not impossible for more messy modules to appear before being migrated
+over. 
