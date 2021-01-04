@@ -33,12 +33,15 @@ import ../devel/nix-profile-declarative/nix-profile {
         magit deadgrep use-package hydra
         ryo-modal alert pinentry
 
+        # Writing
+        langtool
+
         # Zettelkasten
         deft
       ];
 
       runtimeDependencies = with pkgs; [
-        imagemagickBig ispell
+        imagemagickBig ispell languagetool
       ];
     };
 

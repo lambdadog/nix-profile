@@ -42,3 +42,4 @@
 
 (load-config "neuter.el")
 (load-config "ui.el")
+(load-config "writing.el")
